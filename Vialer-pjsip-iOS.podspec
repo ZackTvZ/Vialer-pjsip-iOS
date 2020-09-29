@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
 	s.platform              = :ios, "11.0"
 	s.requires_arc          = true
+	s.static_framework = true 
 
 	s.preserve_paths        = "VialerPJSIP.framework/*"
 	s.public_header_files   = "VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
