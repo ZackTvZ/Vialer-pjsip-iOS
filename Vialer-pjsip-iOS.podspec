@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-	s.name                  = "Vialer-pjsip-iOS"
-	s.version               = "3.7"
+	s.name                  = "Vialer-pjsip-iOS-z"
+	s.version               = "1.0.0"
 	s.summary               = "PJSIP 2.10 for iOS"
 	s.description           = "Pod for distributing PJSIP 2.10 wrapped in a framework. With Opus, OpenSSL and openh264."
 	s.homepage              = "https://www.wearespindle.com"
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.license               = { :type => "GNU GPLv3", :file => "LICENSE" }
 	s.author                = { "Devhouse Spindle" => "opensource@wearespindle.com" }
 
-	s.source                = { :git => "https://github.com/VoIPGRID/Vialer-pjsip-iOS.git", :tag => s.version.to_s }
+	s.source                = { :git => "https://github.com/ZackTvZ/Vialer-pjsip-iOS.git", :tag => s.version.to_s }
 	s.social_media_url      = "https://twitter.com/wearespindle"
 
 	s.platform              = :ios, "10.0"
